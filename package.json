@@ -1,0 +1,14 @@
+{
+  "name": "reactjs-tutorial",
+  "author": "Madhuka Udantha <madhukaudantha@gmail.com>",
+  "version": "0.0.1",
+  "description": "materials for react-tutorial",
+  "main": "",
+  "scripts": {
+    "start": "http-server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.7.1"
+  }
+}
