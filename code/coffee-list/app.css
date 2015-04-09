@@ -1,0 +1,32 @@
+/*
+ * Author: Madhuka Uantha
+ * Description: Simple Theme for coffee list app in react
+ * Email: madhukaudantha@gmail.com
+ * Version: 0.0.1
+ * (C) Copyright 2015 Madhuka Udantha (http://madhukaudantha.blogspot.com/).
+ */
+
+ body {
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+
+.Coffee__Name {
+  cursor: pointer;
+  border-bottom: solid 1px transparent;
+  color: #3B2901
+}
+
+.Coffee__Name:before {
+  display: inline-block;
+  width: 1em;
+  content: '▸';
+}
+
+.Coffee__Name--open:before {
+  content: '▾';
+}
+
+.Coffe__Details{
+	font-style: italic;
+	color: #C48C08
+}
