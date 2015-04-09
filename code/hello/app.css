@@ -1,0 +1,25 @@
+/*
+ * Author: Madhuka Uantha
+ * Description: Simple Theme for hello world react
+ * Email: madhukaudantha@gmail.com
+ * Version: 0.0.1
+ * (C) Copyright 2015 Madhuka Udantha (http://madhukaudantha.blogspot.com/).
+ */
+
+.h1 {
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+
+.detail_view {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+.blog a:link, .blog a:visited {
+    text-decoration: none;
+}
+
+.blog a:hover, .blog a:active {
+    text-decoration: underline;
+}
+
