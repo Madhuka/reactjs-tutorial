@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "http-server": "^0.7.1"
+    "http-server": "^0.7.1",
+    "react-hotkey": "^0.3.0"
   }
 }
