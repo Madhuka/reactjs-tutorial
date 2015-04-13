@@ -2,7 +2,7 @@
 
 /*
  * Author: Madhuka Uantha
- * Description: hello react sample, first component and render it to the page
+ * Description: book-store react sample, first component and render it to the page
  * Email: madhukaudantha@gmail.com
  * Version: 0.0.1
  * (C) Copyright 2015 Madhuka Udantha (http://madhukaudantha.blogspot.com/).
@@ -20,7 +20,7 @@ var BookList = React.createClass({
   render: function() {
     var bookNodes = this.props.data.map(function (book) {
       return (
-        <Book author={book.author} tite={book.text} coverPage={book.cover}>
+        <Book author={book.author} tite={book.title} coverPage={book.cover}>
           {book.description}
           <p>Page count: {book.pages}</p>
         </Book>
