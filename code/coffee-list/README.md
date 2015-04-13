@@ -1,5 +1,10 @@
 # React Tutorial - Coffee List
-we will look on interactivity and dynamic UIs in coffee list sample.
+we will look on interactivity and dynamic UIs in coffee list sample. We will look on
+ - Autobinding and Event Delegation
+ - Event Handling and Synthetic Events
+ - Components are Just State Machines
+ - Refs
+ 
 In Here coffee list application will list down coffee list and each will have summary of line about a coffee. It will expand when user click on coffee name. By click on that coffee name or summary it collapse 
 By now you know about react [Component and Transferring Props](https://github.com/Madhuka/reactjs-tutorial/tree/master/code/hello#react-tutorial---hello-world)
 Properties are passed in just like HTML attributes. You access the children nested in the component on `this.props.children`
@@ -63,7 +68,7 @@ this.setState({
       showDetails: !this.state.showDetails
 });
 ```
-
+###Refs
 Refs are sort of like element IDs but scoped to the component that owns the ref.
 React supports a very special property that you can attach to any component that is output from render(). This special property allows you to refer to the corresponding backing instance of anything returned from render(). It is always guaranteed to be the proper instance, at any point in time. To get at the actual DOM node, you call `getDOMNode()` on a ref. Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`.
 
