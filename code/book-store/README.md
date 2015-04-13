@@ -109,6 +109,7 @@ var BookList = React.createClass({
     );
   }
 });
+```
 
 ###Data model
 
@@ -157,7 +158,7 @@ Now you have app on running let do some adding template make more nice looking. 
 
 ###Sample Screen-Shoot 
 
-![alt tag](https://photos-2.dropbox.com/t/2/AAAbFwoCJJfLuWU-DYtkAJu42h3yyfpuZReMzxVQYnpaZg/12/276653591/png/1024x768/3/1428915600/0/2/book-store.png/CJfM9YMBIAEgAiADKAEoAg/bxNnPhcG0lo1Ag-1Iryi3qik87NN5H0TgOfbz4wQjro)
+![https://www.dropbox.com/s/1j9wqyzy68nr2ch/book-store.png?dl=0](https://dl-web.dropbox.com/get/gitRepo/book-store.png?_subject_uid=276653591&w=AAAnKo4uXGHHfLBsSx-oetd6DbLRFUpdFd8e2nh_t045UQ)
 
 ###Running the samples
 [http://localhost:8080/code/book-store/index.html](http://localhost:8080/code/book-store/index.html)
