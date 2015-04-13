@@ -158,7 +158,7 @@ Now you have app on running let do some adding template make more nice looking. 
 
 ###Sample Screen-Shoot 
 
-![https://www.dropbox.com/s/1j9wqyzy68nr2ch/book-store.png?dl=0](https://dl-web.dropbox.com/get/gitRepo/book-store.png?_subject_uid=276653591&w=AAAnKo4uXGHHfLBsSx-oetd6DbLRFUpdFd8e2nh_t045UQ)
+![book store screen shoot](https://lh3.googleusercontent.com/BgJrgsPcTLCM3k_a125lmPLJY4YiOzilaRWqXyxSww_RxsCm__FNIc8icp_oYmoJka7N4QvV=w1342-h547)
 
 ###Running the samples
 [http://localhost:8080/code/book-store/index.html](http://localhost:8080/code/book-store/index.html)
