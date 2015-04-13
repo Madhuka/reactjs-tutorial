@@ -15,23 +15,23 @@ var App = React.createClass({
     return (
       <div className="App">
         <h1>Coffee List</h1>
-		    <Coffee summary="Cappuccino">
+		    <Coffee name="Cappuccino">
   			   <p>Cappuccino is a coffee-based drink prepared 
            with espresso, hot milk, and steamed milk foam.</p>
 		    </Coffee>
-		    <Coffee summary="Latte">
+		    <Coffee name="Latte">
   			   <p>A latte is an espresso and steamed milk, generally 
            in a 1:3 to 1:5 ratio of espresso to milk, with a little foam on top.</p>
 		    </Coffee>
-        <Coffee summary="Espressino">
+        <Coffee name="Espressino">
            <p>An espressino is made from espresso, steamed milk, 
            and cocoa powder, similar to the Marocchino.</p>
         </Coffee>
-        <Coffee summary="Café bombón">
+        <Coffee name="Café bombón">
            <p>Café bombón was made popular in Valencia, Spain, 
            and spread gradually to the rest of the country.</p>
         </Coffee>
-        <Coffee summary="Galão">
+        <Coffee name="Galão">
            <p>Galão is a hot drink from Portugal made of espresso and foamed milk.</p>
         </Coffee>
 

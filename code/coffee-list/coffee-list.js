@@ -47,7 +47,7 @@ var Coffee = React.createClass({
           onClick={this.handleClick}
           className={summaryClassName}
         >
-          {this.props.summary}
+          {this.props.name}
         </div>
         <div onClick={this.handleClick} ref="details" tabIndex="-1" className="Coffe__Details">
           {details}
